@@ -1,6 +1,6 @@
 const app = "I don't do much."
 
-function addElementToEndOfArray(array, element) {
-  var newArray = [...array, element]
+function destructivelyAppendKitten(name) {
+  var newArray = [name]
   return newArray
 }
